@@ -1,0 +1,32 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.conteudoLateralEsquerda{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudoLateralEsquerda, .menu{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.conteudoLateralEsquerda, .logo{
+    margin: 40px;
+    padding-top: 12vh;
+    align-self: center;
+}
+
+.lateralEsquerdaIcons {
+    display: flex;
+    margin-top: 3vh;
+    flex-direction: column;
+}
+
+.ul{
+    display: flex;
+}
